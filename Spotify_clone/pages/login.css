@@ -1,0 +1,101 @@
+@import url("https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2");
+
+:root{
+    --bg:white;
+    --txt:black;
+}
+
+#new{
+
+height: 90px;
+margin-left: 500px;
+
+}
+
+body{
+    font-family: "Roboto",sans-serif;
+}
+
+.center{
+    display:grid;
+    place-items: center;
+}
+
+.center .cont{
+    font-weight: bold;
+}
+
+a{
+
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: 15px;
+border-color: beige;
+border-width: 1px;
+border-style: solid;
+border-radius: 20px;
+padding: 12px;
+text-decoration: none;
+margin-bottom: 0.5rem;
+width: 400px;
+color: rgb(64, 82, 35);
+
+}
+
+
+a:nth-child(2){
+    background-color:rgb(59, 89,152);
+    color: white;
+
+
+}
+
+a:nth-child(3){
+    background-color:black;
+    color: white;
+    
+
+}
+
+.input-grid{
+    display: grid;
+}
+
+.form-label{
+    padding-bottom: 12px;
+}
+
+.input{
+    padding: 15px;
+    width: 400px;
+}
+
+
+
+.input:nth-child(2){
+   
+    margin-bottom: 15px;
+
+}
+
+.form-down{
+     cursor: pointer;
+     font-size: 15px;
+     font-weight: lighter;
+}
+
+.form-down button{
+    background-color: rgb(113,170,113);
+    width: 450px;
+    border-radius:100px;
+    color: white;
+    padding: 12px;
+    font-size: larger;
+
+}
+
+button:hover {
+    background-color: green;
+  }
+
